@@ -1,0 +1,10 @@
+    "custom/wbar": {
+        "format": "{}", //    //
+        "exec": "echo ; echo  switch menubar",
+        "on-click": "~/.config/hypr/waybar/wbarconfgen.sh n",
+        "on-click-right": "~/.config/hypr/waybar/wbarconfgen.sh p",
+        "on-click-middle": "~/.config/hypr/waybar/wbarconfgen.sh",
+        "interval" : 86400,
+        "tooltip": true
+    },
+
